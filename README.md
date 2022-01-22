@@ -3,6 +3,12 @@
 
 <br>
 
+## Deployed Project Link
+
+ - [Heroku](https://sasta-calculator.herokuapp.com/bmi)
+ 
+<br>
+
 ## How to Setup
 
 Locate to BMI Calculator directory then on terminal type
@@ -12,13 +18,7 @@ Locate to BMI Calculator directory then on terminal type
 **Then visit**
 http://localhost:3000/bmi
 
-<br>
 
-
-## Deployed Project Link
-
- - [Heroku](https://sasta-calculator.herokuapp.com/bmi)
- 
  <br>
 
 ## Attached some images:
