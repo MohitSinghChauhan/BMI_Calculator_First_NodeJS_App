@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calulator</title>
+    <style>
+        @media only screen and (min-width: 500px) {
+            .flexapply {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                margin: 15px;
+            }
+            .hidden{
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <h1>BMI Calulator</h1>
+    </header>
+    <section class="subheader">
+        <h3 style="text-align: center;"><i>Calculate your BMI (body mass index) by using the form below. <br>
+                Enter your weight and height and click the Calculate button to display your BMI result.</i></h3>
+    </section>
+    <hr><br><br>
+
+
+    <div class="flexapply">
+        <div>
+            <form method="post" action="/bmi">
+                <label for="height">Enter height (in cm) :</label><br>
+                <input type="number" name="height" id="height" min=1 max=400><br><br>
+                <label for="weight">Enter weight (in kg) :</label><br>
+                <input type="number" name="weight" id="weight" min=1 max=200><br><br>
+                <input type="submit" value="Calculate"><br><br><br><br>
+
+            </form>
+        </div>
+        <hr class="hidden">
+        <div>
+            <aside>
+                <h3 style="margin:0px">BMI Categories:</h3>
+                <p>Underweight = &lt;18.5</p>
+                <p>Normal weight = 18.5&ndash;22.9</p>
+                <p>Mild to moderate overweight = 23&ndash;27.4</p>
+                <p>Very overweight to obese= BMI of 27.5 or greater</p>
+            </aside>
+        </div>
+
+    </div>
+<br><br>
+    <footer>
+        <center><p>Made with 💖</p></center>
+    </footer>
+    
+</body>
+
+</html>
