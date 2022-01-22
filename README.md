@@ -5,7 +5,7 @@
 
 ## Deployed Project Link
 
- - [Heroku](https://sasta-calculator.herokuapp.com/bmi)
+ - [Heroku](https://supersimplecalculator.herokuapp.com/bmi)
  
 <br>
 
