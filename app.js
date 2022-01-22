@@ -8,12 +8,6 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
 });
 
-app.post("/", (req, res) => {
-    let formResponse = req.body;
-    const { num1, num2 } = formResponse;
-    let ans = Number(num1) + Number(num2);
-    res.send(`<h1>Thanks, Answer is ${ans}</h1>`);
-});
 
 app.get("/bmi", (req, res) => {
     res.sendFile(__dirname + "/bmiCalculator/index.html");
