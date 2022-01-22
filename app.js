@@ -35,8 +35,8 @@ app.post("/bmi", (req, res) => {
     }
 
     res.send(
-        `<h1 style="margin-top:30vh; "><center>Hey buddy, You're BMI is ${bmi.toFixed(2)},</center></h1><br>
-        <h2 style="margin:10px auto; "><i><center>Hence, You falls under the category of ${category}</center></i></h2> 
+        `<h1 style="margin-top:30vh; "><center>Hey buddy, You're BMI is ${bmi.toFixed(2)} </center></h1><br>
+        <h2 style="margin:10px auto; "><i><center>Hence, You falls under the category of <u>${category}.</u></center></i></h2> 
       <div style="text-align: center; margin-top:80px">
       <h2 >Possible Health risks:</h2>
       <p style="font-size:21px";>${healthRisk}.</p><div>`
