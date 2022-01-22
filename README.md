@@ -1,4 +1,7 @@
+
 # BMI_Calculator_Basic_NodeJS_App
+
+<br>
 
 ## How to Setup
 
@@ -11,7 +14,15 @@ http://localhost:3000/bmi
 
 <br>
 
+
+## Deployed Project Link
+
+ - [Heroku](https://sasta-calculator.herokuapp.com/bmi)
+ 
+ <br>
+
 ## Attached some images:
+<br>
 
 _Landing Page of BMI Calculator :_
 ![enter image description here](https://raw.githubusercontent.com/MohitSinghChauhan/BMI_Calculator_Basic_NodeJS_App/main/preview_images/Landing_page_bmi.png)
