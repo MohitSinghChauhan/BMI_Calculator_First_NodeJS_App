@@ -1,11 +1,11 @@
 
-# BMI_Calculator_Basic_NodeJS_App
+# BMI_Calculator_First_NodeJS_App
 
 <br>
 
 ## Deployed Project Link
 
- - [Heroku - https://supersimplecalculator.herokuapp.com/bmi](https://supersimplecalculator.herokuapp.com/bmi)
+ - <a href="https://supersimplecalculator.herokuapp.com/bmi" target="_blank" >Heroku - https://supersimplecalculator.herokuapp.com/bmi</a>
  
 <br>
 
