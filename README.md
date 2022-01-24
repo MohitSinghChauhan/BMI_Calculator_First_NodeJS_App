@@ -5,7 +5,7 @@
 
 ## Deployed Project Link
 
- - [Heroku](https://supersimplecalculator.herokuapp.com/bmi)
+ - [Heroku - https://supersimplecalculator.herokuapp.com/bmi](https://supersimplecalculator.herokuapp.com/bmi)
  
 <br>
 
