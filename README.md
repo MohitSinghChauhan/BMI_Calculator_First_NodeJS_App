@@ -7,10 +7,10 @@
 
  - <a href="https://supersimplecalculator.herokuapp.com/bmi" target="_blank" >Heroku - https://supersimplecalculator.herokuapp.com/bmi</a>
  
- <hr>
+ <br><hr>
 <b>All the data used in this app is based on the Singapore health standards, <a href="https://bit.ly/3KBnEhL" target="_blank">Read more here.</a></b>
-<br>
- <hr>
+
+<hr><br>
 
 ## How to Setup
 
